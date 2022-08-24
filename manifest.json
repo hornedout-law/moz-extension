@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Bonjour",
+    "version": "1.0",
+    "description": "says hello when u first open up ur browser",
+    "icons": {
+        "32": "peeking-out.png",
+        "24": "peeking-out-24.png",
+        "16": "peeking-out-16.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "peeking-out-16.png",
+          "32": "peeking-out.png"
+        }
+      }
+}
